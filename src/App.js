@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import "./style/main.less";
+
 
 function App() {
   return (
