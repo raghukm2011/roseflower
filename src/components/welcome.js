@@ -1,23 +1,24 @@
 import React from 'react';
 import './welcome.css';
 
+
 function Welcome() {
   return (
     <div class="wrapper">
     <div class="container">
         <div class="title">
             <h1>Aeolus Tech Labs</h1>
-            <p>Developing project with REACT </p>
+            <p>Building REACT appliction.</p>
             <div class="buttons">
-                <button>Explore</button>
+            <button>Welcome</button>
             </div>
         </div>
         <div class="graphic">
             <div class="clip-svg">
                 <div class="night">
                     <div class="surface moveRight"></div>
-                    <div class="car suspension">
-                        <img src=" " alt=""/>
+                      <div class="car suspension">
+                      <img src={require("../../public/assets/train5.png")} alt=""></img>
                     </div>
                 </div>
             </div>
@@ -42,13 +43,6 @@ function Welcome() {
             </svg>
         </div>
     </div>
-    <div class="mobile-view">
-        <img src="./assets/72.jpg" alt=""/>
-    </div>
-    <div class="tablet-view">
-        <img src="./assets/27.jpg" alt=""/>
-    </div>
-
 </div>
 
   );
